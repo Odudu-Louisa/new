@@ -1,0 +1,367 @@
+/* Get rid of default padding and margin */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+.container{
+    width: auto;
+}
+.first{
+    display: flex;
+}
+.goo{
+    margin-left: 30px;
+    margin-top: 28px;
+}
+.first .second{
+    margin-left: 30px;
+    margin-top: 25px;
+    border-radius: 30px 0px 0px 30px;
+   border-right: 0px;
+    padding: 0 0 3px 20px;
+    font: 16px arial,sans-serif ;
+    width: 350px;
+    flex: 100%;
+    line-height: 39px;
+    height: 39px !important;
+    white-space: unset;
+   
+}
+.first .yes{
+    flex: 100%;
+    width: 50px;
+    border-radius:0px;
+    border-width: 2px;
+    background-color: transparent;
+    margin-top: 25px;
+    line-height: 39px;
+    height: 39px !important;
+    border-left: 0px;
+    border-right: 0px;
+}
+.first .no{
+    flex: 100%;
+    width: 50px;
+    border-radius: 0px;
+    border-width: 2px;
+    background-color: transparent;
+    margin-top: 25px;
+    line-height: 39px;
+    height: 39px !important;
+    border-left: 0px;
+    border-right: 0px;
+}
+.first .none{
+    flex: 100%;
+    width: 50px;
+    border-radius: 0px 30px 30px 0px;
+    border-width: 2px;
+    background-color: transparent;
+    margin-top: 25px;
+    line-height: 39px;
+    height: 39px !important;
+    border-left: 0px;
+}
+
+.hope{
+    display: flex;
+}
+.third{
+    padding: 35px 0px 0px 350px;
+    display: flex; 
+}
+.nose{
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 100px;
+    background-color: rgb(184, 29, 55);
+}
+.container nav ul {
+    display: flex;
+    margin: 22px 10px 22px 10px;
+}
+.container li{
+    padding:0px 20px;
+}
+.leave{
+
+    margin-left: 520px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+ .leave :hover{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.only{
+    margin-left: 30px;
+    opacity: 70%;
+}
+.ulcer a{
+text-decoration: none;
+color: black;
+opacity: 80%;
+}
+.go{
+    opacity: 80%;
+}
+.fifth{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.come{
+    display: flex;
+    height: 45px;
+}
+.come img{
+    border-radius: 8px;
+}
+
+ .okk{
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 26px;
+    font-weight: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ok p{
+    padding-left: 80px;
+    opacity: 90%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#pls{
+    display: flex;
+   
+}
+#pls ul{
+    display: flex;
+    margin-top: 8px;
+}
+#pls .zoo{
+    padding: 12px 20px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgba(156, 154, 154, 0.986)(128, 128, 128, 0.986);
+}
+.ok .okk{
+    width: 250px;
+}
+.fan{
+    margin-left: 150px;
+}
+.fan ul li{
+    
+    margin-left: 10px;
+    margin-top:30px ;
+}
+.fan li{
+    display: block;
+    box-sizing: content-box;
+    line-height: normal;
+    position: static;
+    z-index: auto;
+}
+
+.hr{
+    opacity: 30%;
+}
+.top{
+    margin-top: 40px;
+    margin-left: 180px;
+    opacity: 80%;
+    font-family: arial,sans-serif;
+}
+.top h4{
+    font-size: 20px;
+}
+.top p{
+    padding-top: 10px;
+}
+.empty{
+    border-top: 1px solid black;
+    margin-top: 15px;
+    margin-left: 180px;
+    opacity: 20%;
+    width: 660px;
+}
+.pin{
+    margin-left: 150px;
+}
+.own{
+    margin-left: 160px;
+    margin-top: 15px;    
+}
+.own .h{
+    border-radius: 10px;
+}
+.own .i{
+    padding: 8px 0px;
+}
+.own p{
+    width: 250px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a0dab;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.own a{
+    text-decoration:none ;
+}
+.hour{
+    color: black;
+    opacity: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.also{
+    margin: 90px 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.so{
+    opacity: 35%;
+    width: 670px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.flex{
+    display: flex;
+}
+.flex .h{
+    margin-left: 15px;
+}
+.flex p{
+    width: 210px;
+}
+.sin ul{
+    display: flex; 
+      
+}
+.flexx{
+    display: flex;
+}
+.flexx p{
+    width: 205px;
+}
+.flexx .h{
+    margin-left: 5px;
+}
+.null{
+    display: flex;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 360px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    font-weight: 400;
+    width: 300px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #e2e4e5;
+}
+.morer a{
+    text-decoration: none;
+    color: black;
+}
+
+.owner{
+    background-color: #dadce0;
+    position: absolute;
+    border: 0;
+    height: 1px;
+    width: 660px;
+}
+
+.hun{
+    display: flex;
+}
+.choose{
+    width: 880px;
+}
+.chose{
+    margin-top: 25px;
+    width: 350px;
+    margin-left: 20px;
+}
+.what{
+    border-left: 1px solid black;
+    margin-top: 25px;
+    opacity: 30%;
+}
+.price{
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    padding: 8px 20px 8px 5px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price img{
+    padding-top: 10px;
+}
+.chose h2{
+    font-size: 20px;
+}
+.all{
+    line-height: 1.58;
+    color: #4d5156;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.wik{
+    white-space: nowrap;
+    color: #1a0dab;
+    text-decoration: none;
+    line-height: 1.58;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.classy{
+    color: #4d5156;
+}
+.claim{
+    color: #4d5156;
+display: inline-block;
+font-size: 16px;
+line-height: 1.58;
+padding: 5px 16px 5px 36px;
+border: 1px solid rgba(0, 0, 0, 0.185);
+border-radius: 40px;
+}
+.claim a{
+    text-decoration: none;
+    color: #4d5156;
+}
+.chose .boo{
+    font-size: 12px;
+    color: #4d5156;
+    opacity: 80%;
+    width: 100px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
